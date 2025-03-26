@@ -1,0 +1,5 @@
+from crear_excel_inicial import crear_excel_inicial
+from automatizacion_inventario import automatizacion_inventario
+
+crear_excel_inicial()
+automatizacion_inventario()

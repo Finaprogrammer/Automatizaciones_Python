@@ -5,6 +5,7 @@ from docx import Document
 
 def crear_documento(nombre_archivo):
     """
+    
     Crea un nuevo documento de Word y lo guarda con el nombre especificado.
     """
     doc = Document()

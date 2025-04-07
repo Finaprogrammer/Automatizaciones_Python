@@ -60,4 +60,5 @@ if __name__ == "__main__":
 
 # This script allows you to save, load, and list clipboard contents using keys.
 # Usage:
-
+# - Save: python main.py save [key]
+# - Load: python main.py load [key]

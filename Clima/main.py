@@ -40,9 +40,7 @@ def get_weather(city):
 if name__ == "__main__":
     city = input("Introduce el nombre de la ciudad: ")
     get_weather(city)
-    # get_weather(city) 
-    # get_weather(city)  # Uncomment this line to call the function directly
-    
+
         
 
 

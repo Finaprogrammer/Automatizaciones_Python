@@ -21,3 +21,6 @@ if __name__ == "__main__":
         print(f"PDFs merged successfully into {output_file}")
     else:
         print("No PDF files found in the specified folder.")
+# This script merges all PDF files in a specified folder into a single PDF file.
+# It uses the PyPDF2 library to handle PDF merging.
+# Make sure to install PyPDF2 using pip if you haven't already:

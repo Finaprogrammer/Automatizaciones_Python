@@ -16,12 +16,9 @@ if __name__ == "__main__":
 
     # Get all PDF files in the folder
     pdf_files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.pdf')]
+    pdf_files.sort()  # Sort the files to maintain order
 
-    if pdf_files:
-        # Merge the PDF files
-        merge_pdfs(pdf_files, output_file)
-        print(f"PDFs merged successfully into {output_file}")
-    else:
-        print("No PDF files found in the specified folder.")
-# This script merges all PDF files in a specified folder into a single PDF file.
-# It uses the PyPDF2 library to handle PDF merging.
+    # Merge the PDF files
+    merge_pdfs(pdf_files, output_file)  
+    
+
